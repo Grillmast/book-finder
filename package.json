@@ -3,20 +3,23 @@
     "version": "1.0.0",
     "description": "",
     "main": "server/server.js",
-    "homepage": "http://{Grillmast}.github.io/{book-finder}",
+    "homepage": "https://{Grillmast}.github.io/{book-finder}",
     "scripts": {
-        "start": "node server/server.js",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
-        "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm run start\"",
-        "install": "cd server && npm install && cd ../client && npm install",
-        "build": "cd client && npm run build"
+      "start": "node server/server.js",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+      "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm run start\"",
+      "install": "cd server && npm install && cd ../client && npm install",
+      "build": "cd client && npm run build"
     },
     "keywords": [],
     "author": "",
     "license": "MIT",
+    "dependencies": {
+      "concurrently": "^5.3.0"
+    },
     "devDependencies": {
-        "concurrently": "^5.3.0",
-        "gh-pages": "^5.0.0"
+      "gh-pages": "^5.0.0"
     }
-}
+  }
+  
