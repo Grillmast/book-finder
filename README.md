@@ -4,7 +4,7 @@ The Google Books Search Engine is a web application built using the MERN stack (
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Technologies Used](#technologies used)
+* [Features](#features)
 * [Contributing](#contributing)
 * [License](#license)
 ## Installation
@@ -48,3 +48,16 @@ Copy code
 npm start
 ```
 Open your web browser and visit http://localhost:3000 to access the application.
+  
+## Usage
+Follow the instructions provided on the application's user interface to search for books, create an account, save books to your account, view your saved books, and perform other actions based on the acceptance criteria mentioned above.
+  
+## Features 
+* Search for Books: Users can enter search terms and click the submit button to search for books.
+* Login/Signup: Users can log in or sign up for an account using their email address and password.
+* Authentication: The application provides authentication functionality to ensure secure access to user-specific features.
+* Search Results: When users perform a search, the application presents several search results with details such as book title, author, description, image, and a link to the book on the Google Books site.
+* Save Books: Logged-in users can save books to their account for future reference.
+* View Saved Books: Users can access a list of books they have saved, displaying the book's details and providing a link to the book on the Google Books site.
+* Remove Saved Books: Users can remove books from their saved list.
+* Logout: Users can log out of the application to end their session.
