@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "main": "server/server.js",
-    "homepage": "https://{Grillmast}.github.io/{book-finder}",
+    "homepage": "https://Grillmast.github.io/book-finder",
     "scripts": {
       "start": "node server/server.js",
       "predeploy": "npm run build",
