@@ -61,3 +61,9 @@ Follow the instructions provided on the application's user interface to search f
 * View Saved Books: Users can access a list of books they have saved, displaying the book's details and providing a link to the book on the Google Books site.
 * Remove Saved Books: Users can remove books from their saved list.
 * Logout: Users can log out of the application to end their session.
+  
+## Contributing
+Contributions to book-finder are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on the GitHub repository or submit a pull request.
+
+## License
+This project is licensed under the MIT License.
